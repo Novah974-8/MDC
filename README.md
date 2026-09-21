@@ -1,26 +1,35 @@
-### MDC
+# MDC
 
-#Idées de projet
-Génération de QR code pour ajouter quelqu’un rapidement dans la messagerie
-Résultat de LDC / Choix d’une équipe pour chaque compte
-Bruit de notification choisi par l’envoyeur
-Météo du lieu d’habitation choisi par l’utilisateur
+## Idées de projet
 
-#Objectifs
-Pour voir les résultats en direct.
-Informer les utilisateurs du dernier résultat de son équipe favorite.
-Visualiser les cinq derniers résultats de matchs (match nul, victoire ou défaite) d’une équipe.
+* Générer un QR code pour ajouter rapidement quelqu’un dans la messagerie.
+* Afficher les résultats de la Ligue des champions (LDC) et permettre à chaque compte de choisir une équipe favorite.
+* Permettre à l’expéditeur de choisir le son de notification.
+* Afficher la météo du lieu d’habitation renseigné par l’utilisateur.
 
-#Public cible
-Fan de foot
-Personne qui aime l’esprit de compétition
+## Objectifs
 
-#Contraintes
-Trouver une API gratuite avec suffisamment de requête par minute
+* Consulter les résultats des matchs en direct.
+* Informer les utilisateurs du dernier résultat de leur équipe favorite.
+* Visualiser les cinq derniers résultats d’une équipe : victoire, match nul ou défaite.
 
-#Arborescence
-./MDC/ 	
-	→ <fichiers>.html
-	→ <fichier>.css
-	→ /img → <images>
-	→ /js → <script java script>
+## Public cible
+
+* Fans de football.
+* Personnes qui apprécient l’esprit de compétition.
+
+## Contraintes
+
+* Trouver une API gratuite proposant un nombre suffisant de requêtes par minute.
+
+## Arborescence
+
+```text
+MDC/
+├── <fichiers>.html
+├── <fichier>.css
+├── img/
+│   └── <images>
+└── js/
+    └── <scripts>.js
+```
