@@ -19,7 +19,8 @@ Personne qui aime l’esprit de compétition
 Trouver une API gratuite avec suffisamment de requête par minute
 
 #Arborescence
-./MDC/ 	→ <fichiers>.html
-		→ <fichier>.css
-		→ /img → <images>
-		→ /js → <script java script>
+./MDC/ 	
+	→ <fichiers>.html
+	→ <fichier>.css
+	→ /img → <images>
+	→ /js → <script java script>
