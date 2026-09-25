@@ -1,37 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Messagerie des Champions</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
-    <a href="connexion.html">Se connecter</a>
-    <h1> Messagerie des champions </h1> <br>
 
-    <h2>Mes Conversations</h2>
+    <header>
+        <a href="index.html"> 
+            <img src="img/logoV2.png" alt="Logo MDC" weight="64" height="64"> 
+        </a>
 
-    <h3> 
-        <!-- <ul>
-            <li>Noah</li>
-            <li>Lucas</li>
-        </ul> -->
+        <a href="connexion.html">Se connecter</a>
+    </header>
+    
 
-        <select>
-            <option>Noah</option>
-            <option>Lucas</option>
-        </select>
-    </h3>
+    <nav>
+        <p><a href="index.html">Accueil</a></p>
+        <p><a href="conversation.html">Messagerie</a></p>
+        <p><a href="resultat.html">Résultats</a></p>
+        <p>Paramètres</p>
+    </nav>
 
-    <a href="conversation.html">Valider</a>
+    <div>
+                
+        <section class="bienvenue">
+            <h1>Messagerie des Champions</h1>
+            <h2>Le match commence, la discussion aussi.</h2>
 
-    <p> message 1</p><br>
+            <p>
+                Retrouve tes amis, échange autour des matchs
+                et suis les résultats de la Ligue des champions.
+            </p>
 
-    <p> message 2</p><br>
+        </section>
 
-    <h2><a href="resultat.html">Résultats</a></h2>
+        <section class="fonctionnalites">
+            <h2>Tout pour vivre la compétition ensemble</h2>
+
+            <div class="cartes">
+                <article class="carte">
+                    <h3>Discute entre supporters</h3>
+                    <p>
+                        Partage tes réactions et débriefe les rencontres
+                        avec tes amis.
+                    </p>
+                </article>
+
+                <br>
+                <article class="carte">
+                    <h3>Suis les résultats</h3>
+                    <p>
+                        Consulte les scores des matchs
+                        de la Ligue des champions.
+                    </p>
+                </article>
+
+                <br>
+                <article class="carte">
+                    <h3>Partage tes pronostics</h3>
+                    <p>
+                        Qui soulèvera le trophée ?
+                        Échange tes prédictions dans la messagerie.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="matchs">
+            <h2>Les rendez-vous de la LDC</h2>
+            <p>Retrouve les rencontres et les résultats de la compétition.</p>
+        </section>
+
+    </div>
+
+
+    <footer>© 2026 Messagerie des Champions</footer>
 
 </body>
 
