@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #020b2d, #061a52, #0b2c78);
+    color: white;
+}
+
+header {
+    height: 80px;
+    padding: 8px 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #02082a;
+    border-bottom: 2px solid #d4af37;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+header img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+header a:hover {
+    color: #d4af37;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+
+    padding: 15px;
+
+    background: #061442;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+nav a,
+nav p {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d4af37;
+}
+
+h1 {
+    text-align: center;
+
+    margin-top: 45px;
+    margin-bottom: 30px;
+
+    font-size: 38px;
+
+    color: white;
+
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.25);
+}
+
+h2 {
+    color: #d4af37;
+    text-align: center;
+    margin: 25px 0;
+}
+
+h3{
+    color: #d4af37;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+body > div {
+    width: 90%;
+    max-width: 900px;
+
+    margin: 0 auto 25px;
+}
+
+body > div p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+form {
+    width: 90%;
+    max-width: 450px;
+
+    margin: 30px auto;
+    padding: 35px;
+
+    display: flex;
+    flex-direction: column;
+
+    background: rgba(2, 11, 45, 0.85);
+
+    border: 1px solid rgba(212, 175, 55, 0.6);
+    border-radius: 15px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+form h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+form label {
+    margin-bottom: 8px;
+
+    color: #dce6ff;
+    font-weight: bold;
+}
+
+form input {
+    padding: 12px;
+    margin-bottom: 18px;
+
+    background: #081a4b;
+    color: white;
+
+    border: 1px solid #3156a3;
+    border-radius: 7px;
+
+    font-size: 15px;
+}
+
+form input:focus {
+    outline: none;
+
+    border-color: #d4af37;
+
+    box-shadow: 0 0 8px rgba(212, 175, 55, 0.4);
+}
