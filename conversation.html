@@ -18,7 +18,6 @@
         <a href="connexion.html">Se connecter</a>
     </header>
     
-
     <nav>
         <p><a href="index.html">Accueil</a></p>
         <p><a href="conversation.html">Messagerie</a></p>
@@ -32,6 +31,16 @@
 
     <h2>Mes Conversations</h2><br>
 
+    <select name="personne" id="personne">
+        <option value="">Choisir une personne</option>
+        <option value="Lucas">Lucas</option>
+        <option value="Noah">Noah</option>
+        <option value="Hippolyte">Hippolyte</option>
+        <option value="Sofia">Sofia</option>
+        
+        
+    </select>
+
     <div id="conversation">
         <p>Bonjour</p><br>
 
@@ -40,7 +49,14 @@
         <p>Ca va ?</p><br>
 
         <p>Oui</p><br>
+
     </div>
+
+    <div id="conversation_zone_texte">
+        <input type="text">
+        <input type="button" value="Envoyer" name="button">
+    </div>
+
     <footer>© 2026 Messagerie des Champions</footer>
     
 </body>
