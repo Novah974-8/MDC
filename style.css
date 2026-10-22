@@ -357,3 +357,49 @@ footer {
     border-color: #4a90e2;
     box-shadow: 0 0 5px rgba(74, 144, 226, 0.3);
 }
+
+
+/* --- Affichage des cinq derniers matchs de Ligue des champions --- */
+.bloc-resultats {
+    width: 90%;
+    max-width: 900px;
+    margin: 22px auto 45px;
+}
+.intro-resultats { text-align: center; color: #dce6ff; }
+.actions-resultats { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; margin: 18px 0; }
+.actions-resultats button { margin-top: 0; }
+.actions-resultats button:disabled { cursor: wait; opacity: .65; }
+.statut-resultats { color: #dce6ff; font-size: 14px; line-height: 1.5; }
+.legende-resultats { display: flex; align-items: center; flex-wrap: wrap; gap: 16px; margin: 15px 0; font-size: 14px; }
+.liste-resultats { display: grid; gap: 12px; }
+.match-resultat {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 16px;
+    border: 1px solid rgba(212,175,55,.35);
+    background: rgba(255,255,255,.07);
+    border-radius: 12px;
+}
+.match-contenu { flex: 1; min-width: 0; }
+.match-date { display: block; margin-bottom: 6px; font-size: 13px; color: #b8c4df; }
+.match-affiche { font-weight: bold; overflow-wrap: anywhere; }
+.match-score { color: #f5d76e; }
+.match-source { display: inline-block; margin-top: 7px; color: #d4af37; font-size: 13px; }
+.pastille-resultat {
+    display: inline-grid;
+    flex-shrink: 0;
+    place-items: center;
+    width: 34px; height: 34px;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+.pastille-resultat.V { background: #18874c; }
+.pastille-resultat.N { background: #808b9d; }
+.pastille-resultat.D { background: #c83c45; }
+@media (max-width: 550px) {
+    .match-resultat { align-items: flex-start; }
+    .legende-resultats { gap: 10px; }
+}
