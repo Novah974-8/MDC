@@ -1,0 +1,12 @@
+{
+  "name": "messagerie-des-champions",
+  "version": "1.0.0",
+  "private": true,
+  "description": "R\u00e9sultats LDC via OpenAI et sauvegarde JSON",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
