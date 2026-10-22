@@ -1,0 +1,104 @@
+{
+  "equipes": {
+    "bayern": {
+      "maj": "2026-10-22T23:18:20.597Z",
+      "matchs": [
+        {
+          "date": "2026-10-21",
+          "domicile": "Bayern München",
+          "exterieur": "Arsenal",
+          "butsDomicile": 2,
+          "butsExterieur": 2,
+          "resultat": "N",
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/"
+        },
+        {
+          "date": "2026-10-13",
+          "domicile": "Viking",
+          "exterieur": "Bayern München",
+          "butsDomicile": 3,
+          "butsExterieur": 3,
+          "resultat": "N",
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/"
+        },
+        {
+          "date": "2026-09-10",
+          "domicile": "Bayern München",
+          "exterieur": "Bodø/Glimt",
+          "butsDomicile": 5,
+          "butsExterieur": 0,
+          "resultat": "V",
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/"
+        },
+        {
+          "date": "2026-05-06",
+          "domicile": "Bayern München",
+          "exterieur": "Paris Saint-Germain",
+          "butsDomicile": 1,
+          "butsExterieur": 1,
+          "resultat": "N",
+          "source": "https://fr.uefa.com/uefachampionsleague/match/2048073--bayern-munchen-vs-paris/"
+        },
+        {
+          "date": "2026-04-28",
+          "domicile": "Paris Saint-Germain",
+          "exterieur": "Bayern München",
+          "butsDomicile": 5,
+          "butsExterieur": 4,
+          "resultat": "D",
+          "source": "https://www.psg.fr/matchs/football-masculin/20252026/paris-vs-bayern-2026-04-28"
+        }
+      ]
+    },
+    "psg": {
+      "maj": "2026-10-22T23:19:09.661Z",
+      "matchs": [
+        {
+          "date": "2026-10-20",
+          "domicile": "Paris Saint-Germain",
+          "exterieur": "Barcelona",
+          "butsDomicile": 4,
+          "butsExterieur": 2,
+          "resultat": "V",
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-and-results/"
+        },
+        {
+          "date": "2026-10-14",
+          "domicile": "Manchester City",
+          "exterieur": "Paris Saint-Germain",
+          "butsDomicile": 2,
+          "butsExterieur": 4,
+          "resultat": "V",
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-and-results/"
+        },
+        {
+          "date": "2026-09-09",
+          "domicile": "Paris Saint-Germain",
+          "exterieur": "Slovan Bratislava",
+          "butsDomicile": 6,
+          "butsExterieur": 1,
+          "resultat": "V",
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-and-results/"
+        },
+        {
+          "date": "2026-05-30",
+          "domicile": "Paris Saint-Germain",
+          "exterieur": "Arsenal",
+          "butsDomicile": 1,
+          "butsExterieur": 1,
+          "resultat": "N",
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a5-20c02e59f219-15e92acdc717-1000--paris-retain-champions-league-holders-edge-arsenal-on-pena/"
+        },
+        {
+          "date": "2026-05-06",
+          "domicile": "Bayern München",
+          "exterieur": "Paris Saint-Germain",
+          "butsDomicile": 1,
+          "butsExterieur": 1,
+          "resultat": "N",
+          "source": "https://fr.uefa.com/uefachampionsleague/history/h2h/50037/52747/"
+        }
+      ]
+    }
+  }
+}
