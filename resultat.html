@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Messagerie des Champions</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="resultat.js" defer></script>
 </head>
 
 <body>
@@ -35,27 +35,37 @@
     </div>
 
     <div class="choix-equipe">
-        <h3 for="equipe">Ton équipe favorite</h3>
-
+        <h3><label for="equipe">Ton équipe favorite</label></h3>
         <select id="equipe" name="equipe">
             <option value="">-- Choisis une équipe --</option>
-            <option value="atletico">Atletico Madrid</option>
+            <option value="atletico">Atlético Madrid</option>
             <option value="bayern">Bayern Munich</option>
+            <option value="real">Real Madrid</option>
+            <option value="psg">Paris Saint-Germain</option>
+            <option value="barca">FC Barcelone</option>
+            <option value="liverpool">Liverpool</option>
+            <option value="city">Manchester City</option>
+            <option value="inter">Inter Milan</option>
         </select>
     </div>
 
-    <div>
-        <p>
-            Cinq derniers résultats de l'équipe favorite :
+    <section class="bloc-resultats" aria-labelledby="titre-resultats">
+        <h2 id="titre-resultats">Les 5 derniers résultats en LDC</h2>
+        <p class="intro-resultats">Sélectionne une équipe pour consulter ses cinq derniers matchs terminés.</p>
 
-            <img src="img/rond_gris.png" alt="Nul" weight="32" height="32">
-            <img src="img/rond_rouge.png" alt="Défaite" weight="32" height="32">
-            <img src="img/rond_vert.png" alt="Victoire" weight="32" height="32">
-            <img src="img/rond_vert.png" alt="Victoire" weight="32" height="32">
-            <img src="img/rond_vert.png" alt="Victoire" weight="32" height="32">
+        <div class="legende-resultats" aria-label="Légende">
+            <span><span class="pastille-resultat V">V</span> Victoire</span>
+            <span><span class="pastille-resultat N">N</span> Match nul</span>
+            <span><span class="pastille-resultat D">D</span> Défaite</span>
+        </div>
 
-        </p>
-    </div>
+        <div class="actions-resultats">
+            <button id="actualiser" type="button" disabled>Actualiser les résultats</button>
+            <p id="statut-resultats" class="statut-resultats" role="status" aria-live="polite">Choisis une équipe.</p>
+        </div>
+
+        <div id="liste-resultats" class="liste-resultats" aria-live="polite"></div>
+    </section>
 
     <footer>© 2026 Messagerie des Champions</footer>
     
