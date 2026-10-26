@@ -99,6 +99,306 @@
           "source": "https://fr.uefa.com/uefachampionsleague/history/h2h/50037/52747/"
         }
       ]
+    },
+    "atletico": {
+      "maj": "2026-10-23T00:57:39.588Z",
+      "matchs": [
+        {
+          "date": "2026-10-20",
+          "domicile": "Stuttgart",
+          "exterieur": "Atlético de Madrid",
+          "butsDomicile": 1,
+          "butsExterieur": 1,
+          "resultat": "N",
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-and-results/"
+        },
+        {
+          "date": "2026-10-13",
+          "domicile": "Atlético de Madrid",
+          "exterieur": "Manchester United",
+          "butsDomicile": 2,
+          "butsExterieur": 0,
+          "resultat": "V",
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/"
+        },
+        {
+          "date": "2026-09-09",
+          "domicile": "Liverpool",
+          "exterieur": "Atlético de Madrid",
+          "butsDomicile": 2,
+          "butsExterieur": 1,
+          "resultat": "D",
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/"
+        },
+        {
+          "date": "2026-04-14",
+          "domicile": "Atlético de Madrid",
+          "exterieur": "Barcelona",
+          "butsDomicile": 1,
+          "butsExterieur": 2,
+          "resultat": "D",
+          "source": "https://www.uefa.com/uefachampionsleague/match/2048067--atleti-vs-barcelona/"
+        },
+        {
+          "date": "2026-04-08",
+          "domicile": "Barcelona",
+          "exterieur": "Atlético de Madrid",
+          "butsDomicile": 0,
+          "butsExterieur": 2,
+          "resultat": "V",
+          "source": "https://fr.uefa.com/uefachampionsleague/match/2048065--barcelona-vs-atleti/"
+        }
+      ]
+    },
+    "real": {
+      "maj": "2026-10-23T00:58:50.194Z",
+      "matchs": [
+        {
+          "date": "2026-10-21",
+          "domicile": "Real Madrid",
+          "exterieur": "Leipzig",
+          "butsDomicile": 4,
+          "butsExterieur": 1,
+          "resultat": "V",
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/"
+        },
+        {
+          "date": "2026-10-14",
+          "domicile": "Roma",
+          "exterieur": "Real Madrid",
+          "butsDomicile": 3,
+          "butsExterieur": 4,
+          "resultat": "V",
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/"
+        },
+        {
+          "date": "2026-09-08",
+          "domicile": "Real Madrid",
+          "exterieur": "Inter",
+          "butsDomicile": 2,
+          "butsExterieur": 1,
+          "resultat": "V",
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/"
+        },
+        {
+          "date": "2026-04-15",
+          "domicile": "Bayern München",
+          "exterieur": "Real Madrid",
+          "butsDomicile": 4,
+          "butsExterieur": 3,
+          "resultat": "D",
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a4-2065d3ad61f5-d3ad2c2b1ca9-1000--bayern-munchen-4-3-real-madrid-agg-6-4-highlights-late-goals-send-bayern-to-semi-finals/"
+        },
+        {
+          "date": "2026-04-07",
+          "domicile": "Real Madrid",
+          "exterieur": "Bayern München",
+          "butsDomicile": 1,
+          "butsExterieur": 2,
+          "resultat": "D",
+          "source": "https://www.uefa.com/uefachampionsleague/news/029c-1e9a2f63fe2d-ebf9ad643892-1000--202526-champions-league-all-the-league-phase-fixtures/"
+        }
+      ]
+    },
+    "barca": {
+      "maj": "2026-10-23T00:59:30.171Z",
+      "matchs": [
+        {
+          "date": "2026-10-20",
+          "domicile": "Paris Saint-Germain",
+          "exterieur": "FC Barcelone",
+          "butsDomicile": 4,
+          "butsExterieur": 2,
+          "resultat": "D",
+          "source": "https://www.uefa.com/uefachampionsleague/match/2049589--paris-vs-barcelona/"
+        },
+        {
+          "date": "2026-10-13",
+          "domicile": "Galatasaray",
+          "exterieur": "FC Barcelone",
+          "butsDomicile": 1,
+          "butsExterieur": 4,
+          "resultat": "V",
+          "source": "https://www.uefa.com/uefachampionsleague/match/2049576--galatasaray-vs-barcelona/"
+        },
+        {
+          "date": "2026-09-09",
+          "domicile": "FC Barcelone",
+          "exterieur": "Feyenoord",
+          "butsDomicile": 5,
+          "butsExterieur": 1,
+          "resultat": "V",
+          "source": "https://www.uefa.com/uefachampionsleague/match/2049561--barcelona-vs-feyenoord/"
+        },
+        {
+          "date": "2026-04-14",
+          "domicile": "Atlético de Madrid",
+          "exterieur": "FC Barcelone",
+          "butsDomicile": 1,
+          "butsExterieur": 2,
+          "resultat": "V",
+          "source": "https://www.uefa.com/uefachampionsleague/match/2048067--atleti-vs-barcelona/"
+        },
+        {
+          "date": "2026-04-08",
+          "domicile": "FC Barcelone",
+          "exterieur": "Atlético de Madrid",
+          "butsDomicile": 0,
+          "butsExterieur": 2,
+          "resultat": "D",
+          "source": "https://www.uefa.com/uefachampionsleague/match/2048065--barcelona-vs-atleti/"
+        }
+      ]
+    },
+    "liverpool": {
+      "maj": "2026-10-23T01:00:01.477Z",
+      "matchs": [
+        {
+          "date": "2026-10-20",
+          "domicile": "Liverpool",
+          "exterieur": "Villarreal",
+          "butsDomicile": 4,
+          "butsExterieur": 3,
+          "resultat": "V",
+          "source": "https://www.liverpoolfc.com/matches/mens-team/liverpool-v-villarreal-uefa-champions-league-20261020"
+        },
+        {
+          "date": "2026-10-14",
+          "domicile": "LASK",
+          "exterieur": "Liverpool",
+          "butsDomicile": 3,
+          "butsExterieur": 6,
+          "resultat": "V",
+          "source": "https://www.liverpoolfc.com/matches/mens-team/lask-v-liverpool-uefa-champions-league-20261014"
+        },
+        {
+          "date": "2026-09-09",
+          "domicile": "Liverpool",
+          "exterieur": "Atlético de Madrid",
+          "butsDomicile": 2,
+          "butsExterieur": 1,
+          "resultat": "V",
+          "source": "https://www.liverpoolfc.com/matches/mens-team/liverpool-v-atletico-de-madrid-uefa-champions-league-20260909"
+        },
+        {
+          "date": "2026-04-14",
+          "domicile": "Liverpool",
+          "exterieur": "Paris Saint-Germain",
+          "butsDomicile": 0,
+          "butsExterieur": 2,
+          "resultat": "D",
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a4-2063cfaada30-e20b2f715a8e-1000--liverpool-0-2-paris-saint-germain-agg-0-4-highlights-ousm/"
+        },
+        {
+          "date": "2026-04-08",
+          "domicile": "Paris Saint-Germain",
+          "exterieur": "Liverpool",
+          "butsDomicile": 2,
+          "butsExterieur": 0,
+          "resultat": "D",
+          "source": "https://www.liverpoolfc.com/news/liverpool-lose-2-0-psg-first-leg-ucl-quarter-final/"
+        }
+      ]
+    },
+    "city": {
+      "maj": "2026-10-23T01:00:36.578Z",
+      "matchs": [
+        {
+          "date": "2026-10-20",
+          "domicile": "Manchester City",
+          "exterieur": "AEK Athens",
+          "butsDomicile": 5,
+          "butsExterieur": 1,
+          "resultat": "V",
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/"
+        },
+        {
+          "date": "2026-10-14",
+          "domicile": "Manchester City",
+          "exterieur": "Paris Saint-Germain",
+          "butsDomicile": 2,
+          "butsExterieur": 4,
+          "resultat": "D",
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/"
+        },
+        {
+          "date": "2026-09-08",
+          "domicile": "Porto",
+          "exterieur": "Manchester City",
+          "butsDomicile": 0,
+          "butsExterieur": 2,
+          "resultat": "V",
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/"
+        },
+        {
+          "date": "2026-03-17",
+          "domicile": "Manchester City",
+          "exterieur": "Real Madrid",
+          "butsDomicile": 1,
+          "butsExterieur": 2,
+          "resultat": "D",
+          "source": "https://www.uefa.com/newsfiles/UCL/2026/2048057_TS.pdf"
+        },
+        {
+          "date": "2026-03-11",
+          "domicile": "Real Madrid",
+          "exterieur": "Manchester City",
+          "butsDomicile": 3,
+          "butsExterieur": 0,
+          "resultat": "D",
+          "source": "https://www.uefa.com/newsfiles/UCL/2026/2048049_TS.pdf"
+        }
+      ]
+    },
+    "inter": {
+      "maj": "2026-10-23T01:01:26.236Z",
+      "matchs": [
+        {
+          "date": "2026-10-21",
+          "domicile": "Inter",
+          "exterieur": "Shakhtar Donetsk",
+          "butsDomicile": 1,
+          "butsExterieur": 0,
+          "resultat": "V",
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/"
+        },
+        {
+          "date": "2026-10-13",
+          "domicile": "Inter",
+          "exterieur": "Club Brugge",
+          "butsDomicile": 3,
+          "butsExterieur": 4,
+          "resultat": "D",
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/"
+        },
+        {
+          "date": "2026-09-08",
+          "domicile": "Real Madrid",
+          "exterieur": "Inter",
+          "butsDomicile": 2,
+          "butsExterieur": 1,
+          "resultat": "D",
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/"
+        },
+        {
+          "date": "2026-02-24",
+          "domicile": "Inter",
+          "exterieur": "Bodø/Glimt",
+          "butsDomicile": 1,
+          "butsExterieur": 2,
+          "resultat": "D",
+          "source": "https://www.uefa.com/newsfiles/UCL/2026/2047774_FR.pdf"
+        },
+        {
+          "date": "2026-02-18",
+          "domicile": "Bodø/Glimt",
+          "exterieur": "Inter",
+          "butsDomicile": 3,
+          "butsExterieur": 1,
+          "resultat": "D",
+          "source": "https://www.uefa.com/newsfiles/UCL/2026/2047766_TS.pdf"
+        }
+      ]
     }
   }
 }
