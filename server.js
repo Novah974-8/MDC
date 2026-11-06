@@ -209,9 +209,25 @@ async function routeAPI(requete, reponse, url) {
 }
 
 const FICHIERS_PUBLICS = new Set([
-  "index.html", "connexion.html", "conversation.html", "inscription.html",
-  "resultat.html", "style.css", "script.js", "resultat.js", "resultats.json"
+    "index.html",
+    "connexion.html",
+    "conversation.html",
+    "parametre.html",
+    "resultat.html",
+    "style.css",
+    "resultats.json",
+    "script.js",
+    "js/local.js",
+    "js/spclient.js",
+    "js/auth.js",
+    "js/signin.js",
+    "js/data.js",
+    "js/chat.js",
+    "js/settings.js",
+    "js/resultat.js",
+    "js/header.js",
 ]);
+
 const TYPES = { ".html": "text/html", ".css": "text/css", ".js": "text/javascript", ".json": "application/json", ".png": "image/png", ".jpg": "image/jpeg", ".svg": "image/svg+xml", ".webp": "image/webp" };
 
 const serveur = http.createServer(async (requete, reponse) => {

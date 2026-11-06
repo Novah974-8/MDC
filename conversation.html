@@ -1,64 +1,92 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Messagerie des Champions</title>
+    <title>Messagerie - Messagerie des Champions</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <link rel="icon" href="data:,">
+
+    <script src="js/local.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+    <script src="js/spclient.js" defer></script>
+    <script src="js/auth.js" defer></script>
+    <script src="js/data.js" defer></script>
+    <script src="js/chat.js" defer></script>
+    <script src="js/header.js" defer></script>
 </head>
-
-<body>
-    <header>
-        <a href="index.html"> 
-            <img src="img/logoV2.png" alt="Logo MDC" weight="64" height="64"> 
+<body class="page-conversation">
+    <header class="site-header">
+        <a href="index.html" aria-label="Retour à l'accueil">
+            <img src="img/logoV2.png" alt="Logo Messagerie des Champions" width="64" height="64">
         </a>
-
-        <a href="connexion.html">Se connecter</a>
+        <a id="lien-compte" href="connexion.html">Se connecter</a>
     </header>
-    
-    <nav>
+
+    <nav class="site-nav" aria-label="Navigation principale">
         <p><a href="index.html">Accueil</a></p>
-        <p><a href="conversation.html">Messagerie</a></p>
+        <p><a href="conversation.html" aria-current="page">Messagerie</a></p>
         <p><a href="resultat.html">Résultats</a></p>
-        <p>Paramètres</p>
+        <p><a href="parametre.html">Paramètres</a></p>
     </nav>
 
-    <div>
-        <h1> Messagerie des champions </h1> <br>
-    </div>
+    <main class="main-content" aria-label="Messagerie des Champions">
+        <aside class="channels-panel" aria-label="Liste des salons">
+            <div class="sidebar-heading">
+                <span class="sidebar-eyebrow">MESSAGERIE DES CHAMPIONS</span>
+                <h1>Salons</h1>
+                <p>Choisis un salon pour discuter avec les supporters.</p>
+            </div>
 
-    <h2>Mes Conversations</h2><br>
+            <div class="sidebar-compose">
+                <label for="input-channel">Créer un salon</label>
+                <form id="form-channel" class="composer">
+                    <input id="input-channel" type="text" placeholder="Nom du salon..." aria-label="Nom du nouveau salon" autocomplete="off" maxlength="80" required>
+                    <button type="submit" aria-label="Ajouter un salon">Créer</button>
+                </form>
+            </div>
 
-    <select name="personne" id="personne">
-        <option value="">Choisir une personne</option>
-        <option value="Lucas">Lucas</option>
-        <option value="Noah">Noah</option>
-        <option value="Hippolyte">Hippolyte</option>
-        <option value="Sofia">Sofia</option>
-        
-        
-    </select>
+            <div class="channel-list-heading">
+                <span>MES SALONS</span>
+                <span class="channels-indicator" aria-hidden="true">●</span>
+            </div>
+            <nav class="channels scrollable" aria-label="Salons disponibles">
+                <ul id="ul-channels" class="channels-list"></ul>
+            </nav>
+        </aside>
 
-    <div id="conversation">
-        <p>Bonjour</p><br>
+        <div class="no-channel">
+            <div class="empty-state">
+                <div class="empty-state-icon" aria-hidden="true">💬</div>
+                <h2>Bienvenue dans la messagerie !</h2>
+                <p>Sélectionne un salon à gauche pour retrouver les discussions, ou crée ton propre salon.</p>
+                <span>⚽ Le match commence, la discussion aussi.</span>
+            </div>
+        </div>
 
-        <p>Salut</p><br>
+        <section class="section-content" aria-label="Discussion du salon">
+            <header class="section-header">
+                <button id="button-back" class="button-back" type="button" aria-label="Retour à la liste des salons">←</button>
+                <div class="channel-avatar" aria-hidden="true">#</div>
+                <div class="channel-heading">
+                    <span>DISCUSSION EN COURS</span>
+                    <strong id="span-channel-title"># Salon</strong>
+                </div>
+                <span class="chat-community">Communauté MDC</span>
+            </header>
 
-        <p>Ca va ?</p><br>
+            <div id="div-messages" class="messages scrollable" role="log" aria-label="Messages du salon" aria-live="polite"></div>
 
-        <p>Oui</p><br>
+            <footer class="message-footer">
+                <form id="form-message" class="composer">
+                    <label for="input-message" class="sr-only">Ton message</label>
+                    <input id="input-message" type="text" placeholder="Écris ton message..." aria-label="Ton message" autocomplete="off" maxlength="5000" required>
+                    <button type="submit">Envoyer <span aria-hidden="true">➤</span></button>
+                </form>
+            </footer>
+        </section>
+    </main>
 
-    </div>
-
-    <div id="conversation_zone_texte">
-        <input type="text">
-        <input type="button" value="Envoyer" name="button">
-    </div>
-
-    <footer>© 2026 Messagerie des Champions</footer>
-    
+    <footer class="site-footer">© 2026 Messagerie des Champions</footer>
 </body>
-
 </html>

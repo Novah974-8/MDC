@@ -101,16 +101,16 @@
       ]
     },
     "atletico": {
-      "maj": "2026-10-23T00:57:39.588Z",
+      "maj": "2026-11-02T16:36:14.950Z",
       "matchs": [
         {
           "date": "2026-10-20",
-          "domicile": "Stuttgart",
+          "domicile": "VfB Stuttgart",
           "exterieur": "Atlético de Madrid",
           "butsDomicile": 1,
           "butsExterieur": 1,
           "resultat": "N",
-          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-and-results/"
+          "source": "https://fr.uefa.com/uefachampionsleague/news/02a8-217680c70b8d-878c5efa7b92-1000--ligue-des-champions-2026-27-tout-le-calendrier-de-la-phas/"
         },
         {
           "date": "2026-10-13",
@@ -119,7 +119,7 @@
           "butsDomicile": 2,
           "butsExterieur": 0,
           "resultat": "V",
-          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/"
+          "source": "https://fr.uefa.com/uefachampionsleague/news/02a8-217680c70b8d-878c5efa7b92-1000--ligue-des-champions-2026-27-tout-le-calendrier-de-la-phas/"
         },
         {
           "date": "2026-09-09",
@@ -128,30 +128,30 @@
           "butsDomicile": 2,
           "butsExterieur": 1,
           "resultat": "D",
-          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/"
+          "source": "https://fr.uefa.com/uefachampionsleague/news/02a8-217680c70b8d-878c5efa7b92-1000--ligue-des-champions-2026-27-tout-le-calendrier-de-la-phas/"
         },
         {
           "date": "2026-04-14",
           "domicile": "Atlético de Madrid",
-          "exterieur": "Barcelona",
+          "exterieur": "FC Barcelona",
           "butsDomicile": 1,
           "butsExterieur": 2,
           "resultat": "D",
-          "source": "https://www.uefa.com/uefachampionsleague/match/2048067--atleti-vs-barcelona/"
+          "source": "https://fr.uefa.com/uefachampionsleague/news/029c-1e9a41c1e90a-bc8b151cc4fb-1000--uefa-champions-league-2025-26-tous-les-resultats-de-la-phas/"
         },
         {
           "date": "2026-04-08",
-          "domicile": "Barcelona",
+          "domicile": "FC Barcelona",
           "exterieur": "Atlético de Madrid",
           "butsDomicile": 0,
           "butsExterieur": 2,
           "resultat": "V",
-          "source": "https://fr.uefa.com/uefachampionsleague/match/2048065--barcelona-vs-atleti/"
+          "source": "https://fr.uefa.com/uefachampionsleague/news/029c-1e9a41c1e90a-bc8b151cc4fb-1000--uefa-champions-league-2025-26-tous-les-resultats-de-la-phas/"
         }
       ]
     },
     "real": {
-      "maj": "2026-10-23T00:58:50.194Z",
+      "maj": "2026-11-02T16:35:56.108Z",
       "matchs": [
         {
           "date": "2026-10-21",
@@ -160,7 +160,7 @@
           "butsDomicile": 4,
           "butsExterieur": 1,
           "resultat": "V",
-          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/"
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--202627-champions-league-all-the-league-phase-fixtures-and-results/"
         },
         {
           "date": "2026-10-14",
@@ -169,7 +169,7 @@
           "butsDomicile": 3,
           "butsExterieur": 4,
           "resultat": "V",
-          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/"
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--202627-champions-league-all-the-league-phase-fixtures-and-results/"
         },
         {
           "date": "2026-09-08",
@@ -178,7 +178,7 @@
           "butsDomicile": 2,
           "butsExterieur": 1,
           "resultat": "V",
-          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/"
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--202627-champions-league-all-the-league-phase-fixtures-and-results/"
         },
         {
           "date": "2026-04-15",
@@ -187,7 +187,7 @@
           "butsDomicile": 4,
           "butsExterieur": 3,
           "resultat": "D",
-          "source": "https://www.uefa.com/uefachampionsleague/news/02a4-2065d3ad61f5-d3ad2c2b1ca9-1000--bayern-munchen-4-3-real-madrid-agg-6-4-highlights-late-goals-send-bayern-to-semi-finals/"
+          "source": "https://www.uefa.com/uefachampionsleague/news/029c-1e9a41c1e90a-bc8b151cc4fb-1000--uefa-champions-league-2025-26-tous-les-resultats-de-la-phas/"
         },
         {
           "date": "2026-04-07",
@@ -196,12 +196,12 @@
           "butsDomicile": 1,
           "butsExterieur": 2,
           "resultat": "D",
-          "source": "https://www.uefa.com/uefachampionsleague/news/029c-1e9a2f63fe2d-ebf9ad643892-1000--202526-champions-league-all-the-league-phase-fixtures/"
+          "source": "https://www.uefa.com/uefachampionsleague/news/029c-1e9a41c1e90a-bc8b151cc4fb-1000--uefa-champions-league-2025-26-tous-les-resultats-de-la-phas/"
         }
       ]
     },
     "barca": {
-      "maj": "2026-10-23T00:59:30.171Z",
+      "maj": "2026-11-02T17:00:26.471Z",
       "matchs": [
         {
           "date": "2026-10-20",
@@ -210,7 +210,7 @@
           "butsDomicile": 4,
           "butsExterieur": 2,
           "resultat": "D",
-          "source": "https://www.uefa.com/uefachampionsleague/match/2049589--paris-vs-barcelona/"
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-and-results/"
         },
         {
           "date": "2026-10-13",
@@ -219,7 +219,7 @@
           "butsDomicile": 1,
           "butsExterieur": 4,
           "resultat": "V",
-          "source": "https://www.uefa.com/uefachampionsleague/match/2049576--galatasaray-vs-barcelona/"
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-and-results/"
         },
         {
           "date": "2026-09-09",
@@ -228,7 +228,7 @@
           "butsDomicile": 5,
           "butsExterieur": 1,
           "resultat": "V",
-          "source": "https://www.uefa.com/uefachampionsleague/match/2049561--barcelona-vs-feyenoord/"
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-and-results/"
         },
         {
           "date": "2026-04-14",
@@ -237,7 +237,7 @@
           "butsDomicile": 1,
           "butsExterieur": 2,
           "resultat": "V",
-          "source": "https://www.uefa.com/uefachampionsleague/match/2048067--atleti-vs-barcelona/"
+          "source": "https://www.uefa.com/uefachampionsleague/news/029c-1e9a2f63fe2d-ebf9ad643892-1000--champions-league-2025-26-all-the-results/"
         },
         {
           "date": "2026-04-08",
@@ -246,7 +246,7 @@
           "butsDomicile": 0,
           "butsExterieur": 2,
           "resultat": "D",
-          "source": "https://www.uefa.com/uefachampionsleague/match/2048065--barcelona-vs-atleti/"
+          "source": "https://www.uefa.com/uefachampionsleague/news/02a4-2057b9871468-9128b9498dc1-1000--barcelona-0-2-atleti-highlights-julian-alvarez-s-sublime-f/"
         }
       ]
     },

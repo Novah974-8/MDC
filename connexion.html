@@ -1,37 +1,49 @@
 <!DOCTYPE html>
-<html lang="fr">
-
+<html lang="fr" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Messagerie des Champions</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-</head>
+    <title>Connexion - Messagerie des Champions</title>
+    <link rel="icon" href="data:,">
 
+    <!-- Initialisation de l'environnement comme dans la version du professeur. -->
+    <script src="js/local.js"></script>
+
+    <!-- On conserve le style original de Messagerie des Champions. -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+    <script src="js/spclient.js" defer></script>
+    <script src="js/auth.js" defer></script>
+    <script src="js/signin.js" defer></script>
+</head>
 <body>
-    <header>
-        <a href="index.html"> 
-            <img src="img/logoV2.png" alt="Logo MDC" weight="64" height="64"> 
+    <header class="page-header">
+        <a href="index.html">
+            <img src="img/logoV2.png" alt="Logo Messagerie des Champions" width="64" height="64">
         </a>
     </header>
-    <h1> Messagerie des champions </h1> <br>
-    
 
-    <form action="/upload" method="post">
-        <h2>Connexion</h2>
+    <main class="signin">
+        <h1>Messagerie Des Champions</h1>
 
-        <label for="email">Adresse mail :</label>
-        <input type="email" id="email" name="email" required> <br>
+        <form id="form-signin">
+            <h2>Connexion</h2>
 
-        <label for="mot_de_passe">Mot de passe :</label>
-        <input type="password" id="mot_de_passe" name="mot_de_passe" required> <br>
+            <label for="email">Adresse mail :</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
 
-        <button type="submit">Se connecter</button>
-    </form>
-    <a href="inscription.html"> S'inscire</a>
-    <footer>© 2026 Messagerie des Champions</footer>
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password" name="password" autocomplete="current-password" required>
 
+            <button type="submit">Se connecter</button>
+            <button id="submit" type="button">S'inscrire</button>
+            <p id="auth-message" role="status" aria-live="polite"></p>
+        </form>
+        
+    </main>
+
+    <footer class="page-footer">
+        <p>© 2026 Messagerie des Champions</p>
+    </footer>
 </body>
-
 </html>
