@@ -358,8 +358,31 @@ footer {
     box-shadow: 0 0 5px rgba(74, 144, 226, 0.3);
 }
 
+.signin {
+            width: 100%;
+            flex: 1;
+        }
 
-/* --- Affichage des cinq derniers matchs de Ligue des champions --- */
+        #button-signup {
+            display: block;
+            width: fit-content;
+            margin: 15px auto 25px;
+            padding: 0;
+            border: none;
+            background: transparent;
+            box-shadow: none;
+            color: #d4af37;
+            font: inherit;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        #button-signup:hover {
+            text-decoration: underline;
+            transform: none;
+            box-shadow: none;
+        }
+
 .bloc-resultats {
     width: 90%;
     max-width: 900px;
@@ -402,4 +425,445 @@ footer {
 @media (max-width: 550px) {
     .match-resultat { align-items: flex-start; }
     .legende-resultats { gap: 10px; }
+}
+
+/* ===============================================================
+   MESSAGERIE - page conversation uniquement.
+   Les styles des autres pages sont conservés sans modification.
+   Les classes et IDs sont compatibles avec js/chat.js.
+   =============================================================== */
+
+.page-conversation {
+    min-height: 100vh;
+    min-height: 100dvh;
+    overflow-x: hidden;
+    background: linear-gradient(140deg, #020b2d 0%, #092263 55%, #061546 100%);
+}
+
+.page-conversation .site-nav {
+    flex-shrink: 0;
+    padding: 13px 20px;
+    gap: clamp(14px, 4vw, 44px);
+}
+.page-conversation .site-nav p { font-size: 14px; }
+.page-conversation .site-nav a[aria-current="page"] { color: #f5d76e; }
+.page-conversation .site-header { flex-shrink: 0; }
+.page-conversation .site-header #lien-compte {
+    max-width: 50vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Deux colonnes : salons / conversation */
+.page-conversation .main-content {
+    display: grid;
+    grid-template-columns: minmax(250px, 310px) minmax(0, 1fr);
+    flex: 1 1 auto;
+    width: min(1400px, calc(100% - 48px));
+    height: calc(100dvh - 205px);
+    min-height: 480px;
+    margin: 20px auto 22px;
+    overflow: hidden;
+    border: 1px solid rgba(212, 175, 55, .34);
+    border-radius: 18px;
+    background: #071438;
+    box-shadow: 0 18px 52px rgba(0, 0, 0, .30);
+}
+
+/* Barre latérale */
+.page-conversation .channels-panel {
+    min-width: 0;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    background: #040e2a;
+    border-right: 1px solid rgba(212, 175, 55, .23);
+}
+.page-conversation .sidebar-heading { padding: 24px 22px 18px; }
+.page-conversation .sidebar-eyebrow {
+    color: #a4b5d8;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.page-conversation .sidebar-heading h1 {
+    text-align: left;
+    margin: 8px 0;
+    color: #fff;
+    font-size: 27px;
+    line-height: 1.2;
+    text-shadow: none;
+}
+.page-conversation .sidebar-heading p {
+    color: #acbbda;
+    font-size: 13px;
+    line-height: 1.5;
+}
+.page-conversation .sidebar-compose {
+    padding: 0 16px 22px;
+    border-bottom: 1px solid rgba(255, 255, 255, .08);
+}
+.page-conversation .sidebar-compose > label {
+    display: block;
+    margin: 0 0 10px 5px;
+    color: #f5d76e;
+    font-size: 13px;
+    font-weight: 700;
+}
+.page-conversation .composer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    max-width: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    background: transparent;
+}
+.page-conversation .composer input {
+    flex: 1 1 0;
+    min-width: 0;
+    margin: 0;
+    padding: 12px 12px;
+    color: #f8fbff;
+    border: 1px solid #344c80;
+    border-radius: 10px;
+    background: #0b1d48;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.page-conversation .composer input::placeholder { color: #9aadd1; }
+.page-conversation .composer input:focus {
+    outline: none;
+    border-color: #e3c45b;
+    box-shadow: 0 0 0 3px rgba(212, 175, 55, .15);
+}
+.page-conversation .composer button {
+    flex: 0 0 auto;
+    margin: 0;
+    padding: 12px 14px;
+    border-radius: 10px;
+    font-size: 13px;
+    box-shadow: none;
+}
+.page-conversation .composer button:hover { box-shadow: 0 4px 15px rgba(212, 175, 55, .2); }
+.page-conversation .channel-list-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 22px 22px 10px;
+    color: #aab9d7;
+    font-size: 11px;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+}
+.page-conversation .channels-indicator { color: #3ccc90; font-size: 11px; }
+.page-conversation nav.channels {
+    display: block;
+    flex: 1 1 auto;
+    min-height: 0;
+    width: 100%;
+    padding: 0 10px 20px;
+    margin: 0;
+    overflow-y: auto;
+    background: transparent;
+    border: 0;
+}
+.page-conversation .channels-list { list-style: none; padding: 0; margin: 0; }
+.page-conversation .channels-list li { margin: 3px 0; padding: 0; list-style: none; }
+.page-conversation .channel-item {
+    display: block;
+    width: 100%;
+    min-height: 43px;
+    margin: 0;
+    padding: 11px 14px;
+    overflow-wrap: anywhere;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background: transparent;
+    color: #d9e5fb;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+    box-shadow: none;
+    transition: background-color .16s ease, color .16s ease;
+}
+.page-conversation .channel-item:hover {
+    transform: none;
+    background: #142859;
+    color: #fff;
+    box-shadow: none;
+}
+.page-conversation .channel-item[aria-current="true"] {
+    color: #ffe48a;
+    background: #293665;
+    border-color: rgba(212, 175, 55, .45);
+}
+.page-conversation .channel-item:focus-visible {
+    outline: 2px solid #f5d76e;
+    outline-offset: 2px;
+}
+
+/* État vide, avant le choix d'un salon */
+.page-conversation .no-channel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+    padding: 24px;
+    background: radial-gradient(ellipse at 52% 36%, #12285a 0%, #071438 75%);
+}
+.page-conversation .empty-state { max-width: 420px; text-align: center; }
+.page-conversation .empty-state-icon {
+    display: grid;
+    place-items: center;
+    width: 76px;
+    height: 76px;
+    margin: 0 auto 23px;
+    border: 1px solid rgba(212, 175, 55, .4);
+    border-radius: 22px;
+    background: rgba(212, 175, 55, .10);
+    font-size: 34px;
+}
+.page-conversation .empty-state h2 {
+    margin: 0 0 13px;
+    color: #f5d76e;
+    text-align: center;
+    font-size: clamp(21px, 2.3vw, 28px);
+}
+.page-conversation .empty-state p {
+    margin: 0 auto 20px;
+    color: #c4d1eb;
+    font-size: 15px;
+    line-height: 1.75;
+}
+.page-conversation .empty-state > span { color: #e0c66a; font-size: 13px; }
+
+/* Salon ouvert */
+.page-conversation .section-content {
+    display: none;
+    min-height: 0;
+    min-width: 0;
+    flex-direction: column;
+    background: #091637;
+}
+.page-conversation.open .no-channel { display: none; }
+.page-conversation.open .section-content { display: flex; }
+.page-conversation .section-header {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 13px;
+    width: 100%;
+    height: auto;
+    min-height: 77px;
+    padding: 14px 22px;
+    margin: 0;
+    border: 0;
+    border-bottom: 1px solid rgba(255,255,255,.10);
+    background: #0b1c45;
+    box-shadow: none;
+}
+.page-conversation .channel-avatar {
+    display: grid;
+    flex: 0 0 42px;
+    place-items: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 13px;
+    color: #061442;
+    background: #f5d76e;
+    font-size: 22px;
+    font-weight: 800;
+}
+.page-conversation .channel-heading { min-width: 0; flex: 1 1 auto; }
+.page-conversation .channel-heading > span {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+    color: #a9bbdf;
+}
+.page-conversation #span-channel-title {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 19px;
+    font-weight: 700;
+    color: #fff;
+}
+.page-conversation .chat-community {
+    flex: 0 0 auto;
+    color: #b6c6e3;
+    font-size: 12px;
+}
+.page-conversation .button-back { display: none; }
+
+/* Bulles de discussion créées par chat.js : article > header, p, time */
+.page-conversation #div-messages {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    min-height: 0;
+    padding: 26px clamp(16px, 4vw, 42px);
+    overflow-y: auto;
+    overscroll-behavior-y: contain;
+    background: radial-gradient(circle at top, #102351 0, #091637 68%);
+}
+.page-conversation .messages article {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: fit-content;
+    max-width: min(76%, 590px);
+    padding: 12px 16px 10px;
+    border: 1px solid rgba(255, 255, 255, .13);
+    border-radius: 15px 15px 15px 4px;
+    background: #192c59;
+    color: #f8fbff;
+    box-shadow: 0 5px 14px rgba(0,0,0,.09);
+}
+.page-conversation .messages article.sent {
+    align-self: flex-end;
+    border-color: rgba(212, 175, 55, .42);
+    border-radius: 15px 15px 4px 15px;
+    background: #273658;
+}
+.page-conversation .messages article > header {
+    display: block;
+    flex: initial;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0 0 6px;
+    border: none;
+    background: transparent;
+    color: #f5d76e;
+    font-size: 12px;
+    font-weight: 700;
+    overflow-wrap: anywhere;
+    box-shadow: none;
+}
+.page-conversation .messages article > p {
+    margin: 0;
+    color: #f7faff;
+    font-size: 15px;
+    line-height: 1.55;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+.page-conversation .messages article > time {
+    align-self: flex-end;
+    margin-top: 8px;
+    font-size: 10px;
+    color: #b4c5e5;
+}
+
+/* Barre de saisie du message, toujours en bas de la discussion */
+.page-conversation .message-footer {
+    display: block;
+    flex: 0 0 auto;
+    min-height: 0;
+    margin: 0;
+    padding: 17px 22px;
+    border: 0;
+    border-top: 1px solid rgba(255,255,255,.12);
+    background: #0a1b43;
+    box-shadow: none;
+}
+.page-conversation #form-message { gap: 12px; }
+.page-conversation #input-message {
+    padding: 13px 16px;
+    border-radius: 12px;
+    font-size: 15px;
+}
+.page-conversation #form-message button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    min-height: 47px;
+    padding: 12px 18px;
+    font-size: 14px;
+}
+.page-conversation #form-message button span { font-size: 12px; }
+.page-conversation .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
+}
+.page-conversation .site-footer {
+    flex: 0 0 auto;
+    margin: 0;
+    padding: 11px 15px;
+}
+
+/* Petites tablettes / téléphones : une seule colonne navigable */
+@media (max-width: 800px) {
+    .page-conversation .main-content {
+        grid-template-columns: minmax(0, 1fr);
+        width: calc(100% - 24px);
+        height: calc(100dvh - 176px);
+        margin: 12px auto;
+        min-height: 420px;
+        border-radius: 14px;
+    }
+    .page-conversation .channels-panel,
+    .page-conversation .no-channel,
+    .page-conversation .section-content { grid-column: 1; grid-row: 1; }
+    .page-conversation .no-channel { display: none; }
+    .page-conversation.open .channels-panel { display: none; }
+    .page-conversation .section-header { min-height: 70px; padding: 12px 15px; }
+    .page-conversation .button-back {
+        display: grid;
+        place-items: center;
+        flex: 0 0 36px;
+        width: 36px;
+        height: 36px;
+        padding: 0;
+        margin: 0;
+        border: 1px solid #405582;
+        border-radius: 9px;
+        background: #142958;
+        box-shadow: none;
+        color: #fff;
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .page-conversation .button-back:hover { transform: none; background: #203769; box-shadow: none; }
+    .page-conversation .sidebar-heading { padding-top: 22px; }
+    .page-conversation .channels-panel { border-right: 0; }
+    .page-conversation #div-messages { padding: 20px 16px; }
+    .page-conversation .messages article { max-width: 88%; }
+    .page-conversation .chat-community { display: none; }
+    .page-conversation .message-footer { padding: 13px; }
+}
+@media (max-width: 520px) {
+    .page-conversation .site-header { padding: 8px 16px; height: 66px; }
+    .page-conversation .site-nav { gap: 10px; padding: 11px 8px; }
+    .page-conversation .site-nav p { font-size: 12px; }
+    .page-conversation .main-content { height: calc(100dvh - 153px); }
+    .page-conversation #span-channel-title { font-size: 16px; }
+    .page-conversation .channel-avatar { flex-basis: 34px; width: 34px; height: 34px; font-size: 18px; }
+    .page-conversation #form-message button { min-height: 44px; padding: 11px 12px; }
+    .page-conversation .messages article > p { font-size: 14px; }
 }
